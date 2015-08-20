@@ -1,0 +1,58 @@
+article{
+	height: 1700px;
+	display: inherit;
+}
+
+body {
+	margin : 0;
+	background: gey;
+	min-height: 1500px;
+}
+.kolumna{
+	width: 50%;
+	background: green;
+	float: left;
+	position: relative;
+}
+.block{
+	
+	position: relative;
+}
+.block2{
+	background: #4983E4;
+}
+
+.kolumna2{
+	float: right;
+	width: 50%;
+	background: navy;
+	height: 1700px;
+}
+.kolumna > #dol{
+	position: absolute;
+    bottom: 0;
+    left: 50%;
+}
+
+p{
+	font-size: 20px;
+	color: black;
+	text-align: center;
+	margin: 0;
+}
+.fixed{
+	position: fixed;
+	top:0;
+    left:0;
+}
+section{
+	position: relative;
+}
+.col{
+	-webkit-column-count: 2;
+}
+li{
+	height: 300px;
+	color: white;
+	font-size: 30px;
+}
