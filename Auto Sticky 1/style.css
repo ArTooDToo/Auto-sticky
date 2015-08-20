@@ -1,0 +1,43 @@
+article{
+	height: 500px;
+}
+body{
+	margin: 0;
+}
+
+.left{
+	
+	background:grey;
+	width:50%;
+	height: 600px;
+	float: left;
+	margin-left:0px;
+}
+.right{
+	float:right;
+	display: block;
+	width:50%;
+	height: 900px;
+}
+.green{
+	background:green;
+}
+
+.fixed{
+	position: fixed;
+	top: 0px;
+}
+.re{
+	position: relative;
+	top: 300px;
+}
+p{
+	display:table-cell;
+	vertical-align: middle;
+	height:300px;
+	font-size: 40px;
+}
+article span{
+	margin-bottom: 0;
+
+}
